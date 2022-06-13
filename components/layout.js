@@ -6,9 +6,11 @@ export default function Layout({ preview, children }) {
   return (
     <>
       <Meta />
-      <div className="min-h-screen">
-        <Alert preview={preview} />
-        <main>{children}</main>
+      <div className="x">
+        {/* <Alert preview={preview} /> */}
+        <div id="wrapper" className="fade-in">
+          <main>{children}</main>
+        </div>
       </div>
       <Footer />
     </>
