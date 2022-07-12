@@ -25,7 +25,7 @@ export default function PostPreview({
         <DateComponent dateString={date} />
       </div>
       <p className="post-excerpt">{excerpt}</p>
-      <Link href={`/posts/${slug}`}><button class="full-story-btn button">Full Story</button></Link>
+      <Link href={`/posts/${slug}`}><button className="full-story-btn button">Full Story</button></Link>
       {/* {author && <Avatar name={author.name} picture={author.picture} />} */}
     </article>
   )

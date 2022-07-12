@@ -10,6 +10,7 @@ export default function Layout({ preview, children }) {
         {/* <Alert preview={preview} /> */}
         <div id="wrapper" className="fade-in">
           <main>{children}</main>
+          <div class="bg fixed" style={{transform : 'none'}}></div>
         </div>
       </div>
       <Footer />
