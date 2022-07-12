@@ -44,7 +44,8 @@ export default function HeroPost({
       </header>
       <CoverImage title={title} slug={slug} url={coverImage.url} />
       <ul className="actions special">
-        <li><a href="#" className="button large">Full Story</a></li>
+        {/* <li><a href="#" className="button large">Full Story</a></li> */}
+        <li><Link href={`/posts/${slug}`}><button>Full Story</button></Link></li>
       </ul>
       <div>
         {/* {author && <Avatar name={author.name} picture={author.picture} />} */}
