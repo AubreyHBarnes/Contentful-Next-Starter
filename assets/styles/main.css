@@ -2648,7 +2648,8 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				/* width: 100%; */
+				aspect-ratio: 64 / 39;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3787,6 +3788,11 @@ input, select, textarea {
 
 		#main > footer {
 			text-align: center;
+		}
+
+		.post-hero-img {
+			width: max-content;
+			margin: 0 auto;
 		}
 
 		.post-preview-container {

@@ -37,6 +37,13 @@ export default function Meta() {
         content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <script src="/js/jquery.min.js" defer></script>
+      <script src="/js/jquery.scrollex.min.js" defer></script>
+      <script src="/js/jquery.scrolly.min.js" defer></script>
+      <script src="/js/browser.min.js" defer></script>
+      <script src="/js/breakpoints.min.js" defer></script>
+      <script src="/js/util.js" defer></script>
+      <script src="/js/main.js" defer></script>
     </Head>
   )
 }
