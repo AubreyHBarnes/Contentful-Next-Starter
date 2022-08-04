@@ -32,6 +32,13 @@ export default function Index({ preview, allPosts }) {
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
+      <script src="/js/jquery.min.js" defer></script>
+      <script src="/js/jquery.scrollex.min.js" defer></script>
+      <script src="/js/jquery.scrolly.min.js" defer></script>
+      <script src="/js/browser.min.js" defer></script>
+      <script src="/js/breakpoints.min.js" defer></script>
+      <script src="/js/util.js" defer></script>
+      <script src="/js/main.js" defer></script>
     </>
   )
 }
