@@ -5,7 +5,7 @@ const contentfulLoader = ({ src, width, quality }) => {
 }
 
 const ContentfulImage = (props) => {
-  return <Image loader={contentfulLoader} {...props} />
+  return (<div style={{position: 'relative', aspectRatio: '16/9'}}><Image loader={contentfulLoader} {...props} /></div>);
 }
 
 export default ContentfulImage

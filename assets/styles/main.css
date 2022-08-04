@@ -3790,7 +3790,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		.post-hero-img {
+		.post-header-img .post-hero-img {
 			width: max-content;
 			margin: 0 auto;
 		}
