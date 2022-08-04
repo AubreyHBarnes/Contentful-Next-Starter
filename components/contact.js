@@ -40,10 +40,10 @@ export default function Contact() {
                 <section>
                     <h3>Social</h3>
                     <ul className="icons alt">
-                        <li><a href="#" className="icon brands alt fa-twitter"><span className="label">Twitter</span></a></li>
-                        <li><a href="#" className="icon brands alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                        <li><a href="https://twitter.com/HbarnesAu" className="icon brands alt fa-twitter"><span className="label">Twitter</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/aubrey-barnes/" className="icon brands alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
                         {/* <li><a href="#" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li> */}
-                        <li><a href="#" className="icon brands alt fa-github"><span className="label">GitHub</span></a></li>
+                        <li><a href="https://github.com/AubreyHBarnes" className="icon brands alt fa-github"><span className="label">GitHub</span></a></li>
                     </ul>
                 </section>
             </section>

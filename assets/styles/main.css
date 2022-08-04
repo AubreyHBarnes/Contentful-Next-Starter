@@ -3250,7 +3250,8 @@ input, select, textarea {
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			background-attachment: scroll, scroll, scroll;
+			background-blend-mode: hard-light;
 			z-index: -1;
 		}
 
@@ -3492,7 +3493,7 @@ input, select, textarea {
 				}
 
 				#intro p {
-					font-size: 1rem;
+					font-size: 1.5rem;
 					margin-top: 0rem;
 				}
 

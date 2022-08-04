@@ -5,10 +5,11 @@ export default function Intro() {
 
     <>
       <div id="intro">
-        <h1>This is<br />
-        Massively</h1>
-        <p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-        and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
+        <h1>Aubrey's Dev Blog</h1>
+        <p>The best way to understand something, is to explain it to someone else.
+          I'll be writing about my thought process and approach to solving issues I 
+          run into in development, maybe we'll learn something together!
+        </p>
         <ul className="actions">
           <li><a href="#header" className="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
         </ul>
