@@ -6,6 +6,105 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
+            "id": "84zl5qdw0ore"
+          }
+        },
+        "id": "codeBlock",
+        "type": "ContentType",
+        "createdAt": "2021-02-25T10:11:09.967Z",
+        "updatedAt": "2021-02-25T10:11:11.997Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-02-25T10:11:11.997Z",
+        "firstPublishedAt": "2021-02-25T10:11:11.997Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6XirHs2ybBGTXcy25qqOU1"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6XirHs2ybBGTXcy25qqOU1"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "6XirHs2ybBGTXcy25qqOU1"
+          }
+        }
+      },
+      "displayField": "description",
+      "name": "Code Block",
+      "description": "A block of code in a specified language.",
+      "fields": [
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "language",
+          "name": "Language",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "in": [
+                "javascript",
+                "css",
+                "scss",
+                "markdown",
+                "graphql",
+                "react-jsx",
+                "react-tsx",
+                "bash-shell",
+                "git",
+                "typescript",
+                "markup"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "code",
+          "name": "Code",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
             "id": "p5asbbjx1p90"
           }
         },
